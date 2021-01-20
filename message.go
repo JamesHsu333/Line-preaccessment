@@ -75,24 +75,8 @@ func (s *SelfIntro) Callback(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s *SelfIntro) handleText(message *linebot.TextMessage, replyToken string, source *linebot.EventSource) error {
-	domain := ParseMessage(message.Text)
+	domain, keyword := ParseMessage(message.Text)
 	switch domain {
-	case "profile":
-		if source.UserID != "" {
-			profile, err := s.bot.GetProfile(source.UserID).Do()
-			if err != nil {
-				return s.replyText(replyToken, err.Error())
-			}
-			if _, err := s.bot.ReplyMessage(
-				replyToken,
-				linebot.NewTextMessage("Display name: "+profile.DisplayName),
-				linebot.NewTextMessage("Status message: "+profile.StatusMessage),
-			).Do(); err != nil {
-				return err
-			}
-		} else {
-			return s.replyText(replyToken, "Bot can't use profile API without user ID")
-		}
 	case "作品":
 		works, err := readJSON("static/message/works.json")
 		if err != nil {
@@ -104,6 +88,9 @@ func (s *SelfIntro) handleText(message *linebot.TextMessage, replyToken string, 
 		}
 		if _, err := s.bot.ReplyMessage(
 			replyToken,
+			linebot.NewTextMessage(fmt.Sprintf("$$ 偵測到關鍵字 '%s'!\n 推斷你想要知道我的 '%s'！", keyword, domain)).AddEmoji(
+				linebot.NewEmoji(0, "5ac1bfd5040ab15980c9b435", "098")).AddEmoji(
+				linebot.NewEmoji(1, "5ac1bfd5040ab15980c9b435", "098")),
 			linebot.NewFlexMessage("作品集介紹", contents),
 		).Do(); err != nil {
 			return err
@@ -119,6 +106,9 @@ func (s *SelfIntro) handleText(message *linebot.TextMessage, replyToken string, 
 		}
 		if _, err := s.bot.ReplyMessage(
 			replyToken,
+			linebot.NewTextMessage(fmt.Sprintf("$$ 偵測到關鍵字 '%s'!\n 推斷你想要知道我的 '%s'！", keyword, domain)).AddEmoji(
+				linebot.NewEmoji(0, "5ac1bfd5040ab15980c9b435", "098")).AddEmoji(
+				linebot.NewEmoji(1, "5ac1bfd5040ab15980c9b435", "098")),
 			linebot.NewFlexMessage("經歷介紹", contents),
 		).Do(); err != nil {
 			return err
@@ -134,6 +124,9 @@ func (s *SelfIntro) handleText(message *linebot.TextMessage, replyToken string, 
 		}
 		if _, err := s.bot.ReplyMessage(
 			replyToken,
+			linebot.NewTextMessage(fmt.Sprintf("$$ 偵測到關鍵字 '%s'!\n 推斷你想要知道我的 '%s'！", keyword, domain)).AddEmoji(
+				linebot.NewEmoji(0, "5ac1bfd5040ab15980c9b435", "098")).AddEmoji(
+				linebot.NewEmoji(1, "5ac1bfd5040ab15980c9b435", "098")),
 			linebot.NewFlexMessage("學歷介紹", contents),
 		).Do(); err != nil {
 			return err
@@ -150,7 +143,7 @@ func (s *SelfIntro) handleText(message *linebot.TextMessage, replyToken string, 
 		}
 		if _, err := s.bot.ReplyMessage(
 			replyToken,
-			linebot.NewTextMessage(fmt.Sprintf("$$歡迎 %s!!\n 按下方的按鈕來認識我吧！", profile.DisplayName)).AddEmoji(
+			linebot.NewTextMessage(fmt.Sprintf("$$ 歡迎 %s!!\n 按下方的按鈕來認識我吧！", profile.DisplayName)).AddEmoji(
 				linebot.NewEmoji(0, "5ac1bfd5040ab15980c9b435", "098")).AddEmoji(
 				linebot.NewEmoji(1, "5ac1bfd5040ab15980c9b435", "098")),
 			linebot.NewFlexMessage("自我介紹", contents),
@@ -168,6 +161,9 @@ func (s *SelfIntro) handleText(message *linebot.TextMessage, replyToken string, 
 		}
 		if _, err := s.bot.ReplyMessage(
 			replyToken,
+			linebot.NewTextMessage(fmt.Sprintf("$$ 偵測到關鍵字 '%s'!\n 推斷你想要知道我的 '%s'！", keyword, domain)).AddEmoji(
+				linebot.NewEmoji(0, "5ac1bfd5040ab15980c9b435", "098")).AddEmoji(
+				linebot.NewEmoji(1, "5ac1bfd5040ab15980c9b435", "098")),
 			linebot.NewFlexMessage("技能介紹", contents),
 		).Do(); err != nil {
 			return err

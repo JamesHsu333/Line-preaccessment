@@ -15,14 +15,14 @@ var (
 	posSeg pos.Segmenter
 )
 
-func ParseMessage(sentence string) string {
+func ParseMessage(sentence string) (string, string) {
 	hmm := seg.CutSearch(sentence, true)
 	for _, str := range hmm {
 		if value, exist := keywords[str]; exist {
-			return value
+			return value, str
 		}
 	}
-	return "default"
+	return "default", "NULL"
 }
 
 func main() {
