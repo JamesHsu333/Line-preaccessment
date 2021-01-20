@@ -1,0 +1,23 @@
+{
+    "name": "Line-preaccessment",
+    "description": "Assignment for Line, which promote myself through chatbot.",
+    "repository": "https://github.com/JamesHsu333/Line-preaccessment",
+    "keywords": ["Line", "go", "static"],
+    "buildpacks": [{
+            "url": "https://github.com/kr/heroku-buildpack-go.git"
+        },
+        {
+            "url": "heroku/go"
+        }
+    ],
+    "env": {
+        "ChannelAccessToken": {
+            "description": "Channel Access Token",
+            "required": true
+        },
+        "ChannelSecret": {
+            "description": "Channel Secret",
+            "required": true
+        }
+    }
+}
