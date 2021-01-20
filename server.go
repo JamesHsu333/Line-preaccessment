@@ -28,7 +28,7 @@ func ParseMessage(sentence string) string {
 func main() {
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		log.Println("Error loading .env file")
 	}
 	app, err := NewSelfIntro(
 		os.Getenv("CHANNEL_SECRET"),
