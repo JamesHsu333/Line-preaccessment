@@ -18,6 +18,10 @@
         "ChannelSecret": {
             "description": "Channel Secret",
             "required": true
+        },
+        "Port": {
+            "description": "Listen Port",
+            "required": true
         }
     }
 }
