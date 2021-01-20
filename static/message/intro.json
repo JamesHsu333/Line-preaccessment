@@ -1,0 +1,129 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [{
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                        "type": "image",
+                        "url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/56429313_2596279383734441_4640900411744583680_n.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=ZwQ5rF96rzIAX8vcICg&_nc_ht=scontent-tpe1-1.xx&oh=bcbd2bda91e91924487ea88b39278d4e&oe=602AD171",
+                        "aspectMode": "cover",
+                        "size": "full"
+                    }],
+                    "cornerRadius": "100px",
+                    "width": "72px",
+                    "height": "72px"
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                            "type": "text",
+                            "contents": [{
+                                "type": "span",
+                                "text": "許庭禎 | James Hsu  ",
+                                "weight": "bold",
+                                "color": "#ffffff",
+                                "size": "lg"
+                            }],
+                            "size": "sm",
+                            "wrap": true
+                        },
+                        {
+                            "type": "separator",
+                            "color": "#ffffff",
+                            "margin": "md"
+                        },
+                        {
+                            "type": "text",
+                            "contents": [{
+                                "type": "span",
+                                "text": "熱衷於資訊科技,擅長網頁技術\b、圖像處理與深度學習。 擁有良好的自學能力,喜愛吸收新知,不斷學習嶄新的技術和資訊,期望可以透過IT發現和解決問題。",
+                                "size": "xs",
+                                "color": "#ffffff"
+                            }],
+                            "size": "sm",
+                            "wrap": true,
+                            "margin": "md"
+                        },
+                        {
+                            "type": "box",
+                            "layout": "baseline",
+                            "contents": [{
+                                "type": "text",
+                                "text": "jamescow06@gmail.com",
+                                "size": "sm",
+                                "color": "#bcbcbc"
+                            }],
+                            "spacing": "sm",
+                            "margin": "md"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "xl",
+            "paddingAll": "20px"
+        }],
+        "paddingAll": "0px",
+        "backgroundColor": "#1A6CBD"
+    },
+    "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [{
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "label": "經歷",
+                    "text": "經歷"
+                },
+                "style": "primary",
+                "margin": "sm",
+                "color": "#4789CA"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "label": "學歷",
+                    "text": "學歷"
+                },
+                "style": "primary",
+                "margin": "sm",
+                "color": "#4789CA"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "label": "技能",
+                    "text": "技能"
+                },
+                "style": "primary",
+                "margin": "sm",
+                "color": "#4789CA"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "label": "作品",
+                    "text": "作品"
+                },
+                "style": "primary",
+                "margin": "sm",
+                "color": "#4789CA"
+            }
+        ]
+    },
+    "styles": {
+        "footer": {
+            "backgroundColor": "#1A6CBD"
+        }
+    }
+}

@@ -1,0 +1,495 @@
+{
+    "type": "carousel",
+    "contents": [{
+            "type": "bubble",
+            "size": "mega",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                            "type": "text",
+                            "text": "技能",
+                            "color": "#ffffff",
+                            "size": "xl",
+                            "flex": 4,
+                            "weight": "bold"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Skills",
+                            "color": "#ffffff66",
+                            "size": "md"
+                        }
+                    ]
+                }],
+                "paddingAll": "20px",
+                "backgroundColor": "#F57B7B",
+                "spacing": "md",
+                "paddingTop": "22px"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "height": "12px",
+                                        "width": "12px",
+                                        "borderColor": "#EF454D",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "size": "sm",
+                                "text": "前端技術",
+                                "flex": 2
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [],
+                                            "width": "2px",
+                                            "backgroundColor": "#B7B7B7"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "text": "Front End",
+                                "flex": 4,
+                                "align": "start"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "height": "40px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "width": "12px",
+                                        "height": "12px",
+                                        "borderColor": "#6486E3",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "flex": 1,
+                                "size": "sm",
+                                "text": "後端技術"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [],
+                                            "width": "2px",
+                                            "backgroundColor": "#B7B7B7"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "text": "Back End",
+                                "flex": 4,
+                                "align": "start"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "height": "40px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "width": "12px",
+                                        "height": "12px",
+                                        "borderColor": "#6486E3",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "flex": 1,
+                                "size": "sm",
+                                "text": "DevOps & 雲端技術"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [],
+                                            "width": "2px",
+                                            "backgroundColor": "#B7B7B7"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "text": "DevOps & Cloud service",
+                                "flex": 4,
+                                "align": "start"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "height": "40px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "width": "12px",
+                                        "height": "12px",
+                                        "borderColor": "#18ABD6",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "flex": 1,
+                                "size": "sm",
+                                "text": "人工智慧 & 數位影像處理"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "flex": 4,
+                                "align": "start",
+                                "text": "AI & Digital Image Processing"
+                            }
+                        ],
+                        "spacing": "lg"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "前端技術"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "Front End"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                            "type": "box",
+                            "layout": "baseline",
+                            "spacing": "sm",
+                            "contents": [{
+                                "type": "text",
+                                "wrap": true,
+                                "color": "#ffffff",
+                                "size": "sm",
+                                "flex": 3,
+                                "text": "具有 HTML5, CSS3, JavaScript / Typescript 技術,並熟悉 Vue.js 前端框架,可獨立完成網站前端及SPA(Single Page App) , 包括路由管理、全域狀態管理、串接API與模組化元件"
+                            }]
+                        }]
+                    }
+                ],
+                "backgroundColor": "#27ACB2"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "後端技術"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "Back End"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                            "type": "box",
+                            "layout": "baseline",
+                            "spacing": "sm",
+                            "contents": [{
+                                "type": "text",
+                                "wrap": true,
+                                "color": "#ffffff",
+                                "size": "sm",
+                                "flex": 3,
+                                "text": "具有 Nodejs, python, golang等技能,並運用express,  flask, gin等框架實作 MVC / MTV架構,設計RESTful API,目前研究實作JWT / OAuth等機制, 與concurrent平行處理"
+                            }]
+                        }]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            }
+        },
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "DevOps & 雲端技術"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "DevOps & Cloud service"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                            "type": "box",
+                            "layout": "baseline",
+                            "spacing": "sm",
+                            "contents": [{
+                                "type": "text",
+                                "wrap": true,
+                                "color": "#ffffff",
+                                "size": "sm",
+                                "flex": 3,
+                                "text": "運用Git進行版控, 熟悉Docker與Drone以進行CI/CD, ,曾運用Azure DevOps進行無伺服器 (Serverless)的CI/CD, 熟悉Microsoft Azure雲端服務,已考取Azure官方證照 (AZ-900, AZ- 103)"
+                            }]
+                        }]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "人工智慧 & 數位影像處理"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "AI & Digital Image Processing"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                            "type": "box",
+                            "layout": "baseline",
+                            "spacing": "sm",
+                            "contents": [{
+                                "type": "text",
+                                "wrap": true,
+                                "color": "#ffffff",
+                                "size": "sm",
+                                "flex": 3,
+                                "text": "熟悉機器學習和深度學習, 具有OpenCV, pytorch, caffe的能力, 主要研究物體辨識(Object Detection), 語意分割(Semantic Segmentation), 並有Hadoop Map Reduce實作經驗 "
+                            }]
+                        }]
+                    }
+                ],
+                "backgroundColor": "#A17DF5"
+            }
+        }
+    ]
+}

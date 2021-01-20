@@ -1,0 +1,460 @@
+{
+    "type": "carousel",
+    "contents": [{
+            "type": "bubble",
+            "size": "mega",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                            "type": "text",
+                            "text": "學歷",
+                            "color": "#ffffff",
+                            "size": "xl",
+                            "flex": 4,
+                            "weight": "bold"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Education",
+                            "color": "#ffffff66",
+                            "size": "md"
+                        }
+                    ]
+                }],
+                "paddingAll": "20px",
+                "backgroundColor": "#0367D3",
+                "spacing": "md",
+                "paddingTop": "22px",
+                "height": "225px"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "text": "現為碩二",
+                        "color": "#b7b7b7",
+                        "size": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "height": "12px",
+                                        "width": "12px",
+                                        "borderColor": "#EF454D",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "size": "sm",
+                                "text": "臺灣科技大學",
+                                "flex": 1
+                            },
+                            {
+                                "type": "text",
+                                "text": "Feb, 2020 ~ Now",
+                                "size": "xxs",
+                                "align": "end",
+                                "color": "#b7b7b7",
+                                "gravity": "center"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px",
+                        "margin": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [],
+                                            "width": "2px",
+                                            "backgroundColor": "#B7B7B7"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "sm",
+                                "text": "資訊管理所",
+                                "flex": 4,
+                                "align": "start"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "height": "40px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "width": "12px",
+                                        "height": "12px",
+                                        "borderColor": "#6486E3",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "flex": 1,
+                                "size": "sm",
+                                "text": "成功大學"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Graduate in 2019",
+                                "size": "xxs",
+                                "align": "end",
+                                "color": "#b7b7b7",
+                                "gravity": "center"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "sm",
+                                "flex": 4,
+                                "align": "start",
+                                "text": "工業與資訊管理學系"
+                            }
+                        ],
+                        "spacing": "lg"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "fit",
+                "url": "https://beasiswaln.stts.edu/wp-content/uploads/2018/11/NTUST-IfoM.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "國立臺灣科技大學"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "lg",
+                        "color": "#ffffff",
+                        "text": "資訊管理所"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "資訊科技與應用研究組"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "所屬Lab",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "自然人機介面實驗室"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "研究領域",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "人工智慧 圖像處理 深度學習"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "指導教授",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "林柏慎 副教授",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [{
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "詳細內容",
+                            "uri": "https://www.cs.ntust.edu.tw/index.php/zh/introduction-2/group-a/bor-shen-lin"
+                        },
+                        "color": "#1A6CBD"
+                    },
+                    {
+                        "type": "spacer",
+                        "size": "sm"
+                    }
+                ],
+                "flex": 0,
+                "backgroundColor": "#464F69"
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "fit",
+                "url": "https://nckuiim.files.wordpress.com/2018/03/e88289e78b97.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "國立成功大學"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "lg",
+                        "color": "#ffffff",
+                        "text": "工業與資訊管理系"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "資訊科技組"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "大學專題",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "探討擴增實境學習系統對高等教育學習者學習成效之影響"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "負責部分",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "系統設計與開發"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "指導教授",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "王維聰 教授",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [{
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "專題詳細內容",
+                            "uri": "https://drive.google.com/file/d/1ylybzPiqn8dc-iMAEj-TDy4K2GcNFTD0/view?usp=sharing"
+                        },
+                        "color": "#1A6CBD"
+                    },
+                    {
+                        "type": "spacer",
+                        "size": "sm"
+                    }
+                ],
+                "flex": 0,
+                "backgroundColor": "#464F69"
+            }
+        }
+    ]
+}

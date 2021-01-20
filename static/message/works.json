@@ -1,0 +1,260 @@
+{
+    "type": "carousel",
+    "contents": [{
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "cover",
+                "url": "https://camo.githubusercontent.com/decb94f93f5306c83b6ad70f76904ecebb2a019f60aaa62108fd3909b490f32a/68747470733a2f2f692e696d6775722e636f6d2f716b6a334550772e706e67"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "text": "Azure CMS",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "描述",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "flex": 1
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "Azure Content Management System is a CMS which focus on resolve complex and duplicate operation on Azure Portal.",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "帳號",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "flex": 1
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "TestForLine",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "密碼",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "flex": 1
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "GASH",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 5
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [{
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "GitHub",
+                            "uri": "https://github.com/JamesHsu333/Azure-Content-Management-System"
+                        },
+                        "color": "#1A6CBD"
+                    },
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "Website",
+                            "uri": "https://jameshsu333.github.io/Azure-Content-Management-System"
+                        },
+                        "color": "#18ABD6",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "spacer",
+                        "size": "sm"
+                    }
+                ],
+                "flex": 0,
+                "backgroundColor": "#464F69"
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "fit",
+                "url": "https://media.cakeresume.com/image/upload/s--mDYhrErp--/c_pad,fl_png8,h_900,w_1200/v1554124644/wlngkjoq78xr3ooqzfao.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "text": "NCKU HUB",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "描述",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "flex": 1
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "NCKU HUB 是由成大生自主發起的資訊平台， 期許能透過技術，使得校園資訊更加流通。",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "功能",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "flex": 1
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "目前作品有尋找課程心得、模擬未來課表和聊天機器人。",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "擔任",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "flex": 1
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "手機版前端",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 5
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [{
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "GitHub",
+                            "uri": "https://github.com/NCKUKIWI"
+                        },
+                        "color": "#1A6CBD"
+                    },
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "Website",
+                            "uri": "https://nckuhub.com/"
+                        },
+                        "color": "#18ABD6",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "spacer",
+                        "size": "sm"
+                    }
+                ],
+                "flex": 0,
+                "backgroundColor": "#464F69"
+            }
+        }
+    ]
+}

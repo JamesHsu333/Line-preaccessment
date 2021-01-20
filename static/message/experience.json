@@ -1,0 +1,635 @@
+{
+    "type": "carousel",
+    "contents": [{
+            "type": "bubble",
+            "size": "mega",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                            "type": "text",
+                            "text": "經歷",
+                            "color": "#ffffff",
+                            "size": "xl",
+                            "flex": 4,
+                            "weight": "bold"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Experience",
+                            "color": "#ffffff66",
+                            "size": "md"
+                        }
+                    ]
+                }],
+                "paddingAll": "20px",
+                "backgroundColor": "#18ABD6",
+                "spacing": "md",
+                "paddingTop": "22px",
+                "height": "225px"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "height": "12px",
+                                        "width": "12px",
+                                        "borderColor": "#EF454D",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "size": "sm",
+                                "text": "台灣應用材料 AMT",
+                                "flex": 2
+                            },
+                            {
+                                "type": "text",
+                                "text": "7~8, 2020",
+                                "size": "xxs",
+                                "align": "end",
+                                "color": "#b7b7b7",
+                                "gravity": "center"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px",
+                        "margin": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [],
+                                            "width": "2px",
+                                            "backgroundColor": "#B7B7B7"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "text": "軟體工程師 Intern",
+                                "flex": 4,
+                                "align": "start"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "height": "40px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "width": "12px",
+                                        "height": "12px",
+                                        "borderColor": "#6486E3",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "flex": 1,
+                                "size": "sm",
+                                "text": "伊雲谷科技"
+                            },
+                            {
+                                "type": "text",
+                                "text": "7, 2019 ~ 2, 2020",
+                                "size": "xxs",
+                                "align": "end",
+                                "color": "#b7b7b7",
+                                "gravity": "center"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [],
+                                            "width": "2px",
+                                            "backgroundColor": "#B7B7B7"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "text": "雲端技術 Intern",
+                                "flex": 4,
+                                "align": "start"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "height": "40px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "cornerRadius": "30px",
+                                        "width": "12px",
+                                        "height": "12px",
+                                        "borderColor": "#18ABD6",
+                                        "borderWidth": "6px"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "center",
+                                "flex": 1,
+                                "size": "sm",
+                                "text": "NCKU HUB"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1, 2018 ~ 1, 2020",
+                                "size": "xxs",
+                                "align": "end",
+                                "color": "#b7b7b7",
+                                "gravity": "center"
+                            }
+                        ],
+                        "spacing": "lg",
+                        "cornerRadius": "30px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [{
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                            "type": "filler"
+                                        },
+                                        {
+                                            "type": "filler"
+                                        }
+                                    ],
+                                    "flex": 1
+                                }],
+                                "width": "12px"
+                            },
+                            {
+                                "type": "text",
+                                "gravity": "top",
+                                "size": "xs",
+                                "flex": 4,
+                                "align": "start",
+                                "text": "前端工程師"
+                            }
+                        ],
+                        "spacing": "lg"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "fit",
+                "url": "https://seekvectorlogo.net/wp-content/uploads/2019/09/applied-materials-inc-vector-logo.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "台灣應用材料"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "lg",
+                        "color": "#ffffff",
+                        "text": "軟體工程師 Intern"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "July, 2020 ~ Aug, 2020"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "text": "公司介紹"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "Applied Materials是材料工程解決方案的領導者，該解決方案用於生產世界上幾乎所有新晶片和先進顯示器"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "工作內容",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "1. 負責數位顯影製程分析軟體的設計和實做（tcl / tk）"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": " ",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "2. 負責實做後端API (C語言)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": " ",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "3. 負責設計後端API之演算法"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "fit",
+                "url": "https://www.ecloudture.com/wp-content/uploads/2019/06/logo-19.jpg"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "伊雲谷數位科技"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "lg",
+                        "color": "#ffffff",
+                        "text": "雲端技術 Intern"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "July, 2019 ~ Feb, 2020"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "text": "公司介紹"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "eCloudvalley為AWS高級諮詢合作夥伴，致力於為公司提供多種解決方案，例如遷移、Serverless、數據解決方案和docker"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "工作內容",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "1. 製作Microsoft Azure雲服務培訓課程"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": " ",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "2. 使用Microsoft Azure雲服務開發CMS"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": " ",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "3. 通過Microsoft Azure雲服務認證（AZ-103）"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "4:3",
+                "aspectMode": "fit",
+                "url": "https://media.cakeresume.com/image/upload/s--mDYhrErp--/c_pad,fl_png8,h_900,w_1200/v1554124644/wlngkjoq78xr3ooqzfao.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [{
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": "#ffffff",
+                        "text": "NCKU HUB"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "bold",
+                        "size": "lg",
+                        "color": "#ffffff",
+                        "text": "前端工程師"
+                    },
+                    {
+                        "type": "text",
+                        "weight": "regular",
+                        "size": "sm",
+                        "color": "#ffffff",
+                        "text": "Jan, 2018 ~ Jan, 2020"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [{
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "color": "#aaaaaa",
+                                        "size": "sm",
+                                        "text": "組織介紹"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "NCKU HUB 是由成大生自主發起的資訊平台， 期許能透過技術，使得校園資訊更加流通，目前作品有尋找課程心得、模擬未來課表和聊天機器人"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": "工作內容",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "1. 手機版前端設計"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [{
+                                        "type": "text",
+                                        "text": " ",
+                                        "color": "#aaaaaa",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#ffffff",
+                                        "size": "sm",
+                                        "flex": 3,
+                                        "text": "2. 手機版前端實作"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "backgroundColor": "#464F69"
+            }
+        }
+    ]
+}
